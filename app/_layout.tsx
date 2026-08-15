@@ -3,6 +3,7 @@ import {
   DMSans_500Medium,
   DMSans_700Bold,
 } from '@expo-google-fonts/dm-sans';
+import { IBMPlexMono_400Regular } from '@expo-google-fonts/ibm-plex-mono';
 import { IBMPlexSans_600SemiBold } from '@expo-google-fonts/ibm-plex-sans';
 import { ThemeProvider, DefaultTheme } from 'expo-router';
 import { useFonts } from 'expo-font';
@@ -37,11 +38,11 @@ const AppTheme = {
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     DMSans_400Regular,
     DMSans_500Medium,
     DMSans_700Bold,
     IBMPlexSans_600SemiBold,
+    IBMPlexMono_400Regular,
   });
 
   useEffect(() => {

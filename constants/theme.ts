@@ -18,5 +18,5 @@ export const typography = {
   body: 'DMSans_400Regular',
   bodyMedium: 'DMSans_500Medium',
   bodyBold: 'DMSans_700Bold',
-  mono: 'SpaceMono',
+  mono: 'IBMPlexMono_400Regular',
 };
