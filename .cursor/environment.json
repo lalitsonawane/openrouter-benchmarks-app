@@ -1,0 +1,10 @@
+{
+  "snapshot": "POP",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "npm run web -- --port 8081"
+    }
+  ]
+}
